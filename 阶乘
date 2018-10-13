@@ -1,0 +1,17 @@
+import java.util.Scanner;;
+public class jicheng {
+	public static void main(String[] args) {
+	int num;
+	Scanner scan=new Scanner(System.in);
+	System.out.print("please enter a number ");
+	num = scan.nextInt();
+	int sum=1;
+    if(num==0) {
+		System.out.println("this number's factorial is 1");
+		}
+	for(int i=1;i<=num;i++) {
+		sum=sum*i;
+	}
+	System.out.println("this number's factorial is     "+sum);
+}
+}
